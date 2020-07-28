@@ -21,13 +21,5 @@
   },
   "dependencies": {
     "slick-carousel": "^1.8.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/StreetKillah/flatlanding.git"
-  },
-  "bugs": {
-    "url": "https://github.com/StreetKillah/flatlanding/issues"
-  },
-  "homepage": "https://github.com/StreetKillah/flatlanding#readme"
+  }
 }
