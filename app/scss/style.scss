@@ -11,8 +11,9 @@ body{
 /*--------------------------------------------------------П Е Р В Ы Й  Э К Р А Н---------------------------------------------------------------*/
 
 .first_screen{
-    background: url('../img/first_screen.png') 100% 100%;
+    background: url('../img/first_screen.png') 50%/cover fixed;
     background-size: cover;
+    background-position: center;
     margin: 0 auto;
 
 .first_container{
@@ -51,7 +52,7 @@ a:visited{
     color: #fff;
 }
 .header_center{
-    margin: 200px 260px;
+    margin: 45% 260px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -69,6 +70,7 @@ a:visited{
         margin-top: 100px;
     }
     .header_contacts{
+        max-width: 582px;
         font: 18px "Raleway", sans-serif;
         line-height: 21px;
         margin-top: 200px;
