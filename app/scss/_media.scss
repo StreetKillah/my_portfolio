@@ -248,20 +248,26 @@
 
     .header_center{
         .header_title{
-            margin-left: -300px;
+            position: relative;
+            left: -200px;
             span{
                 color: #D4C17F;
                 font-family: "Playfair Display", serif;
                 font-size: 24px;
             }
         }
+        .header_mouse{
+            position: relative;
+            left: -60px;
+        }
         .header_contacts{
             display: flex;
             flex-direction: column;
-            margin-left: 70%;
+            position: relative;
+            left: 40px;
             width: 582px;
             .header_address{
-                margin-left: 65px;
+                margin-left: 75px;
             }
         }
     }
